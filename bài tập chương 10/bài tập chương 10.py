@@ -10,11 +10,20 @@ def lay_tenbainhac(path):
 path = "Tên file nhạc: d:\\music\\muabui.mp3"
 print(lay_tenbainhac(path))
 print(get_layfile(path))
+
+
+
+
+
+
 #bài 2
 nhapchuoi = input("Nhập chuỗi: ")
 nhapkytu = input("Nhập ký tự: ")
 solan = s.count(nhapkytu)
 print(f"Ký tự {nhapkytu} xuất hiện {solan} lần trong chuỗi")
+
+
+
 
 #bài 3
 def hamdequy(n):
@@ -26,12 +35,24 @@ def hamdequy(n):
 nhap = int(input("Nhập một số nguyên dương:"))
 print(f"Giai thừa của {nhap} là {hamdequy(nhap)}")
 
+
+
+
+
+
 #bài 4
 nhap = input("Nhập vào một chuỗi: ")
 if len(nhap) == 0:
     print("Lỗi")
 else:
     print(f"Độ dài của chuỗi là: {len(nhap)}")
+
+
+
+
+
+
+
 
 #bài 5
 import matplotlib.pyplot as plt
@@ -49,12 +70,27 @@ ax2.set_ylabel("y")
 plt.tight_layout()
 plt.show()
 
+
+
+
+
+
+
+
+
 #bài 6
 s = input("Nhập vào một chuỗi: ")
 reversed_s = ""
 for i in range(len(s) - 1, -1, -1):
     reversed_s += s[i]
 print("chuỗi đảo ngược: ", reversed_s)
+
+
+
+
+
+
+
 
 #bài 7
 matkhau = ""
@@ -63,6 +99,18 @@ while matkhau != "python123":
     if matkhau != "python123":
         print("Sai mật khẩu, vui lòng thử lại!")
 print("Đăng nhập thành công!")
+
+
+
+
+
+
+
+
+
+
+
+
 
 #bài 8
 strings = []
@@ -79,8 +127,22 @@ for i in range(n - 1):
 print("\nKết quả cuối cùng (giảm dần theo độ dài):")
 print(strings)
 
+
+
+
+
+
+
 #bài 9
 ?
+
+
+
+
+
+
+
+
 
 
 
@@ -99,6 +161,12 @@ for i in range(n):
 print("Các chuỗi sau khi sắp xếp theo độ dài giảm dần:")
 for s in strings:
     print(s, "(", len(s), "ký tự )")
+
+
+
+
+
+
 
 #bài 11
 def bubble_sort_desc(strings):
