@@ -146,6 +146,14 @@ print("Tuổi:", tuoi)
 print("Điểm TB:", diem_tb)
 
 
+
+
+
+
+
+
+
+
 #bài 9
 ten = input("Nhập tên: ")
 tuoi = int(input("Nhập tuổi: "))
