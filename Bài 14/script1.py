@@ -63,6 +63,9 @@ with open("data.txt", "w", encoding="utf-8") as f:
     for ten, gia in books.items():
         f.write(f"{ten};{gia}\n")
     f.write(f"Tong;{tong}")
+
+
+
 #b6
 layers = {
     "layer-11": {
